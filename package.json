@@ -1,0 +1,15 @@
+{
+  "name": "neon-demo",
+  "version": "0.1.0",
+  "description": "Neon demo",
+  "main": "lib/index.js",
+  "author": "linux_china <libing.chen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.1"
+  },
+  "scripts": {
+    "install": "neon build",
+    "clean": "neon clean"
+  }
+}
