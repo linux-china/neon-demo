@@ -1,7 +1,9 @@
 use neon::prelude::*;
 
 fn hello(mut cx: FunctionContext) -> JsResult<JsString> {
-    Ok(cx.string("hello node"))
+    let name = cx.argument::<JsString>(0)?.value();
+    let result = cx.string(format!("hello {}!", name));
+    Ok(result)
 }
 
 register_module!(mut cx, {
