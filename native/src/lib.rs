@@ -7,7 +7,7 @@ fn hello(mut cx: FunctionContext) -> JsResult<JsString> {
 }
 
 fn hello_impl(name: &str) -> String {
-    format!("hello {}!", name)
+    format!("Hello {}!", name)
 }
 
 register_module!(mut cx, {
