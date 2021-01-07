@@ -6,7 +6,7 @@
   "author": "linux_china <libing.chen@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "neon-cli": "^0.5.0"
+    "neon-cli": "^0.7.0"
   },
   "scripts": {
     "install": "neon build",
